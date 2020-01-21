@@ -104,30 +104,6 @@ class EngineersList extends Component {
     const {searchKey} = this.state;
     return (
       <>
-        {/* <View style={styles.headContainer}>
-          <View style={styles.colBackward}>
-            <Text>
-              <Icon
-                name="angle-left"
-                size={35}
-                color="grey"
-                solid
-                onPress={() => {
-                  let url = `${SERVER_URL}/api/v1/engineer?searchBy=name&keyword=&sortBy=name&order=asc&page=1&limit=6`;
-                  this.props.fetchEngineers(url);
-                  this.props.navigation.goBack();
-                }}
-              />
-            </Text>
-          </View>
-          <View style={styles.colSearchBar}>
-
-          </View>
-        </View> */}
-        {/* {this.props.propsData.isLoading && (
-          <ActivityIndicator size="large" color="#009688" />
-        )} */}
-        {/* {!this.props.propsData.isLoading && !this.props.propsData.isEmpty && ( */}
         <FlatGrid
           itemDimension={500}
           items={this.props.propsData.engineers}
@@ -135,17 +111,37 @@ class EngineersList extends Component {
           // staticDimension={300}
           // fixed
           spacing={20}
+          stickyHeaderIndices={[0]}
           ListHeaderComponent={
-            <SearchBar
-              placeholder="Search Here..."
-              onChangeText={text => {
-                this.onSearch(text);
-              }}
-              value={searchKey}
-              platform="ios"
-              containerStyle={styles.searchbar}
-              round={true}
-            />
+            <View style={styles.headContainer}>
+              <View style={styles.colBackward}>
+                <Text>
+                  <Icon
+                    name="angle-left"
+                    size={35}
+                    color="grey"
+                    solid
+                    onPress={() => {
+                      let url = `${SERVER_URL}/api/v1/engineer?searchBy=name&keyword=&sortBy=name&order=asc&page=1&limit=6`;
+                      this.props.fetchEngineers(url);
+                      this.props.navigation.goBack();
+                    }}
+                  />
+                </Text>
+              </View>
+              <View style={styles.colSearchBar}>
+                <SearchBar
+                  placeholder="Search Here..."
+                  onChangeText={text => {
+                    this.onSearch(text);
+                  }}
+                  value={searchKey}
+                  platform="ios"
+                  containerStyle={styles.searchbar}
+                  round={true}
+                />
+              </View>
+            </View>
           }
           renderItem={({item, index}) => (
             <Showcase
@@ -169,19 +165,20 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     marginLeft: 20,
     marginRight: 10,
-    marginBottom: -430,
+    backgroundColor: 'white',
   },
   colBackward: {
     marginTop: 20,
     width: '8%',
   },
   colSearchBar: {
-    width: '92%',
+    flex: 1,
   },
   searchbar: {
     backgroundColor: 'white',
   },
   gridView: {
+    marginTop: -20,
     flex: 1,
   },
   text: {
