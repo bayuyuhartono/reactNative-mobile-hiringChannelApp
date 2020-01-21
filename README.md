@@ -1,7 +1,6 @@
 
 
 # reactNative mobile hiringChannelApp
-[![Build Status](https://secure.travis-ci.org/flatiron/restful.png)](http://travis-ci.org/flatiron/restful)
 
 To install reactNative-mobile-hiringChannelApp, follow these steps:
 ## Installing
