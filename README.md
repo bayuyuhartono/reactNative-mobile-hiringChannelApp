@@ -1,7 +1,7 @@
 
 
 
-# reactjs webfrontend hiringChannelApp
+# reactNative mobile hiringChannelApp
 Hiring Channel App is a Android app that show you data from Company and Engineer, which is made for Engineers to enter their profiles so that Companies can searching for Engineers.
 
 ## Requirements
