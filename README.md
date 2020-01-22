@@ -40,12 +40,12 @@ $ yarn run android
 ## Screenshoot
 
 <div align="center">
-    <img width="250" src="https://raw.githubusercontent.com/bayuyuhartono/reactNative-mobile-hiringChannelApp/master/public/splash.jpg">
-    <img width="250" src="https://raw.githubusercontent.com/bayuyuhartono/reactNative-mobile-hiringChannelApp/master/public/auth.jpg">
-    <img width="250" src="https://raw.githubusercontent.com/bayuyuhartono/reactNative-mobile-hiringChannelApp/master/public/home.jpg">
-    <img width="250" src="https://raw.githubusercontent.com/bayuyuhartono/reactNative-mobile-hiringChannelApp/master/public/home2.jpg">
-    <img width="250" src="https://raw.githubusercontent.com/bayuyuhartono/reactNative-mobile-hiringChannelApp/master/public/engineerlist.jpg">
-    <img width="250" src="https://raw.githubusercontent.com/bayuyuhartono/reactNative-mobile-hiringChannelApp/master/public/profile.jpg">
-    <img width="250" src="https://raw.githubusercontent.com/bayuyuhartono/reactNative-mobile-hiringChannelApp/master/public/profile2.jpg">
-    <img width="250" src="https://raw.githubusercontent.com/bayuyuhartono/reactNative-mobile-hiringChannelApp/master/public/update.jpg">
+    <img width="150" src="https://raw.githubusercontent.com/bayuyuhartono/reactNative-mobile-hiringChannelApp/master/public/splash.jpg">
+    <img width="150" src="https://raw.githubusercontent.com/bayuyuhartono/reactNative-mobile-hiringChannelApp/master/public/auth.jpg">
+    <img width="150" src="https://raw.githubusercontent.com/bayuyuhartono/reactNative-mobile-hiringChannelApp/master/public/home.jpg">
+    <img width="150" src="https://raw.githubusercontent.com/bayuyuhartono/reactNative-mobile-hiringChannelApp/master/public/home2.jpg">
+    <img width="150" src="https://raw.githubusercontent.com/bayuyuhartono/reactNative-mobile-hiringChannelApp/master/public/engineerlist.jpg">
+    <img width="150" src="https://raw.githubusercontent.com/bayuyuhartono/reactNative-mobile-hiringChannelApp/master/public/profile.jpg">
+    <img width="150" src="https://raw.githubusercontent.com/bayuyuhartono/reactNative-mobile-hiringChannelApp/master/public/profile2.jpg">
+    <img width="150" src="https://raw.githubusercontent.com/bayuyuhartono/reactNative-mobile-hiringChannelApp/master/public/update.jpg">
 </div>
