@@ -19,7 +19,7 @@
     "native-base": "^2.13.8",
     "react": "16.9.0",
     "react-moment": "^0.9.7",
-    "react-native": "0.61.5",
+    "react-native": "0.62.3",
     "react-native-androw": "^0.0.34",
     "react-native-dotenv": "^0.2.0",
     "react-native-dynamic-vector-icons": "^0.2.1",
